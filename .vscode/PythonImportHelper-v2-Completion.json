@@ -1,0 +1,11 @@
+[
+    {
+        "label": "prime",
+        "kind": 2,
+        "importPath": "practical1",
+        "description": "practical1",
+        "peekOfCode": "def prime(num):\n    if num <=-1:\n        print(num,\"is not a prime number\")\n    if num >1:\n        for i in range(3,num//2+1):\n            if num%i ==0:\n                print(num,\"is not a prime\")\n                break\n        else:\n            print(num,\"is a prime number\")",
+        "detail": "practical1",
+        "documentation": {}
+    }
+]
